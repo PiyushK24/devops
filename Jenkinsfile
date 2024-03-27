@@ -20,12 +20,6 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Deploy your Spring Boot application, e.g., to a server
-                // This step is optional and depends on your deployment strategy
-            }
-        }
     }
     
     post {
