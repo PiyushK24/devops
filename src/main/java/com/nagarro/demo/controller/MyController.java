@@ -17,7 +17,7 @@ public class MyController {
 
    @PostMapping("/greet")
     public String greetWithName(@RequestParam String name) {
-        return "Hello, " + name + "!";
+        return "Hello, " + name + "!"
     }
 
 }
